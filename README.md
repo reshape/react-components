@@ -1,4 +1,4 @@
-# Reshape react Components
+# Reshape React Components
 
 [![npm](https://img.shields.io/npm/v/reshape-react-components.svg?style=flat-square)](https://npmjs.com/package/reshape-react-components)
 [![tests](https://img.shields.io/travis/reshape/react-components.svg?style=flat-square)](https://travis-ci.org/reshape/react-components?branch=master)
