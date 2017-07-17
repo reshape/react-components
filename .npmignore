@@ -1,0 +1,11 @@
+test
+contributing.md
+.editorconfig
+coverage
+.nyc_output
+yarn.lock
+.travis.yml
+rollup.browser.js
+rollup.ast-vdom.js
+src
+!lib
