@@ -1,7 +1,7 @@
 {
   "name": "reshape-react-components",
   "description": "server render react components and use them like custom elements",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Jeff Escalante",
   "ava": {
     "verbose": "true"
