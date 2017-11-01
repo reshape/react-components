@@ -18,12 +18,12 @@ Render react components to static html and use them like custom elements.
 Setup is pretty simple -- just add the plugin to reshape and pass it an object with the key being the custom element name you want to be replaced with the rendered component, and the value as the actual component. Reshape will render your components and replace the given custom element names with the components' static html.
 
 ```js
-const {h} = require('react')
+const React = require('react')
 const reshape = require('reshape')
 const renderComponents = require('reshape-react-components')
 
 const MyComponent = ({ foo }) => {
-  return h('p', {}, `the value of foo is "${foo}"`)
+  return React.createElement('p', {}, `the value of foo is "${foo}"`)
 }
 
 const html = "<my-component foo='bar' />"
