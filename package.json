@@ -1,13 +1,13 @@
 {
   "name": "reshape-react-components",
   "description": "server render react components and use them like custom elements",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jeff Escalante",
   "ava": {
     "verbose": "true"
   },
   "browser": "lib/browser.js",
-  "bugs": "https://github.com/reshape/reshape-react-components/issues",
+  "bugs": "https://github.com/reshape/react-components/issues",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -34,7 +34,7 @@
   "engines": {
     "node": ">= 6"
   },
-  "homepage": "https://github.com/reshape/reshape-react-components",
+  "homepage": "https://github.com/reshape/react-components",
   "keywords": [
     "custom-elements",
     "react",
@@ -45,7 +45,7 @@
   ],
   "license": "MIT",
   "main": "lib",
-  "repository": "reshape/reshape-react-components",
+  "repository": "reshape/react-components",
   "scripts": {
     "build": "rm -rf lib && mkdir lib && cp src/index.js lib && cp src/serialize.js lib && cp src/reshape-ast-to-vdom.js lib && rollup -c rollup.browser.js && rollup -c rollup.ast-vdom.js",
     "codecov": "nyc report -r lcovonly && codecov",
