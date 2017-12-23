@@ -1,5 +1,7 @@
 # Reshape React Components
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/reshape/react-components.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/reshape-react-components.svg?style=flat-square)](https://npmjs.com/package/reshape-react-components)
 [![tests](https://img.shields.io/travis/reshape/react-components.svg?style=flat-square)](https://travis-ci.org/reshape/react-components?branch=master)
 [![dependencies](https://img.shields.io/david/reshape/react-components.svg?style=flat-square)](https://david-dm.org/reshape/react-components)
